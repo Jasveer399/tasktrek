@@ -9,7 +9,6 @@ import 'package:tasktrek/common/widgets/custom_TextFild.dart';
 import 'package:tasktrek/common/widgets/reusable_text.dart';
 import 'package:tasktrek/features/todo/controllers/todo/todos_provider.dart';
 import 'package:tasktrek/features/todo/pages/addtask_page.dart';
-import 'package:tasktrek/features/todo/pages/test.dart';
 import 'package:tasktrek/features/todo/widgets/completedtask.dart';
 import 'package:tasktrek/features/todo/widgets/dayafterTMtask.dart';
 import 'package:tasktrek/features/todo/widgets/todo_task.dart';
@@ -57,7 +56,7 @@ class _HomepageState extends ConsumerState<Homepage>
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     ReusableText(
-                        text: "DasBoard",
+                        text: "DashBoard",
                         style: appstyle(18, AppConst.KLight, FontWeight.w500)),
                     Container(
                       height: 30.h,
@@ -157,7 +156,7 @@ class _HomepageState extends ConsumerState<Homepage>
                         width: AppConst.kwidth * 0.5,
                         child: Center(
                           child: ReusableText(
-                            text: "Panding..",
+                            text: "Pending..",
                             style:
                                 appstyle(16, AppConst.KGreyBk, FontWeight.bold),
                           ),
