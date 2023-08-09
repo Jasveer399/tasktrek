@@ -4,7 +4,6 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:tasktrek/common/models/task_model.dart';
-import 'package:tasktrek/common/widgets/showdialog.dart';
 import 'package:tasktrek/common/widgets/view_notif.dart';
 import 'package:timezone/timezone.dart' as tz;
 import 'package:timezone/data/latest.dart' as tz;
